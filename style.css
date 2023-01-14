@@ -1,0 +1,104 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create a two-column layout */
+  .column {
+    float: top;
+    
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  table {
+    width: 100%;
+  }
+
+   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other on screens that are smaller than 600 px */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    #navbar {
+        width: 80%;
+    }
+  } 
+
+
+
+#title {
+    text-align: center;
+    font-size: larger;
+}
+
+#headerbox {
+
+}
+
+#navbar {
+    background-color: #55bf1a;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 80%;
+    padding: 1px 4px 4px 2px;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+#navbar a {
+    color: white;
+}
+
+
+
+
+
+
+#content {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+tr {
+    text-align: center;
+    font-size: larger;
+}
+
+
+tbody td{
+    padding: 30px;
+  }
+  
+tbody tr:nth-child(odd){
+background-color: #55bf1a;
+color: black;
+}
+
+#banks {
+    font-size: 69px;
+}
